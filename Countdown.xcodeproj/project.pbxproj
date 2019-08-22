@@ -56,15 +56,31 @@
 		BD02B687228292AC003F3D78 /* Countdown */ = {
 			isa = PBXGroup;
 			children = (
-				BD02B688228292AC003F3D78 /* AppDelegate.swift */,
-				BD02B68A228292AC003F3D78 /* CountdownViewController.swift */,
-				BD02B69A228292CD003F3D78 /* Countdown.swift */,
 				BD02B68C228292AC003F3D78 /* Main.storyboard */,
+				DD3D75B6230DA89F00C73BCF /* View Controller */,
+				DD3D75B5230DA5DA00C73BCF /* Models */,
 				BD02B68F228292AD003F3D78 /* Assets.xcassets */,
 				BD02B691228292AD003F3D78 /* LaunchScreen.storyboard */,
+				BD02B688228292AC003F3D78 /* AppDelegate.swift */,
 				BD02B694228292AD003F3D78 /* Info.plist */,
 			);
 			path = Countdown;
+			sourceTree = "<group>";
+		};
+		DD3D75B5230DA5DA00C73BCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD02B69A228292CD003F3D78 /* Countdown.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD3D75B6230DA89F00C73BCF /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD02B68A228292AC003F3D78 /* CountdownViewController.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
